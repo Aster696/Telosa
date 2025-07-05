@@ -1,3 +1,74 @@
 body {
     margin: 0;
 }
+
+.content {
+    display: flex;
+    
+}
+
+.side-nav {
+    width: 70px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    border-right: 1px solid lightgrey;
+    box-shadow: 3px 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.top-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    padding: 20px;
+    border-bottom: 1px solid lightgrey;
+    box-shadow: 3px 0 10px rgba(0, 0, 0, 0.1);
+    /* background-color: red; */
+}
+
+.main {
+    width: calc(100% - 60px);
+
+}
+
+.logo {
+    font-size: 20px;
+    color: white;
+    background-color: cornflowerblue;
+    border-radius: 100%;
+    border: none;
+}
+
+.telosa-ai-btn {
+    padding: 5px 10px;
+    border: 1px solid cornflowerblue;
+    border-radius: 30px;
+}
+
+.profile-pic {
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    margin-bottom: 5px;
+    /* object-fit: fill; */
+}
+
+.breadcrumb-icon {
+    font-size: 14px;
+}
+
+/* font sizes */
+.font-20px {
+    font-size: 20px;
+}
+
+/* common font color */
+.text-grey {
+    color: gray;
+}
+
+.text-light-grey {
+    color: lightgray;;
+}
