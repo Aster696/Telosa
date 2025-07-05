@@ -41,6 +41,13 @@ body {
     border: none;
 }
 
+.route-icon {
+    font-size: 20px;
+    color: lightblue;
+    background-color: white;
+    border: none;
+}
+
 .telosa-ai-btn {
     padding: 5px 10px;
     border: 1px solid cornflowerblue;
